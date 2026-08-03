@@ -13,13 +13,13 @@
 
 ### 一键安装
 
-点击下方链接直接导入模块：
+👉 **[点击此处一键导入模块](https://raw.githubusercontent.com/Mattease/apple-network-optimize/master/Apple-Geofence-Unlock.sgmodule)**
 
-```
-https://raw.githubusercontent.com/Mattease/apple-network-optimize/main/Apple-Geofence-Unlock.sgmodule
-```
+或复制以下链接在 Shadowrocket 中手动添加：
 
-或在 Shadowrocket 中操作：**配置 → 模块 → + → 粘贴上方链接 → 下载**
+`https://raw.githubusercontent.com/Mattease/apple-network-optimize/master/Apple-Geofence-Unlock.sgmodule`
+
+操作路径：**配置 → 模块 → + → 粘贴上方链接 → 下载**
 
 ### 参数说明
 

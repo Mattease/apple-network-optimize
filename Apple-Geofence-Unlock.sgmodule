@@ -1,0 +1,46 @@
+#!name=苹果解除电子围栏
+#!desc=解除苹果服务地区限制，支持 iCloud Private Relay、Apple Relay 等相关域名的代理转发。可自定义策略组和规则类型。
+#!category=Apple
+#!compatible=shadowrocket
+#!author=Custom
+#!date=2026-08-03
+#!version=1.0.0
+
+#!arguments=POLICY:🍎 苹果解锁,RULE_TYPE:DOMAIN-SUFFIX
+#!arguments-desc=POLICY: 填写你要使用的策略组名称，例如 PROXY、🍎 苹果解锁、🇺🇸 美国节点 等。\nRULE_TYPE: 规则匹配方式，可选 DOMAIN（精确匹配）或 DOMAIN-SUFFIX（后缀匹配，推荐）。
+
+[Rule]
+# ===== Apple Geofence Unlock Domains =====
+
+# Siri & Guzzoni
+{{{RULE_TYPE}}},guzzoni.apple.com,{{{POLICY}}}
+
+# iCloud Private Relay / Mask
+{{{RULE_TYPE}}},mask-api.fe.apple-dns.net,{{{POLICY}}}
+{{{RULE_TYPE}}},mask-api.icloud.com,{{{POLICY}}}
+{{{RULE_TYPE}}},mask-t.apple-dns.net,{{{POLICY}}}
+{{{RULE_TYPE}}},mask.apple-dns.net,{{{POLICY}}}
+{{{RULE_TYPE}}},mask-h2.icloud.com,{{{POLICY}}}
+{{{RULE_TYPE}}},mask.icloud.com,{{{POLICY}}}
+
+# Apple Relay
+{{{RULE_TYPE}}},apple-relay.apple.com,{{{POLICY}}}
+{{{RULE_TYPE}}},apple-relay.cloudflare.com,{{{POLICY}}}
+{{{RULE_TYPE}}},apple-relay.fastly-edge.com,{{{POLICY}}}
+{{{RULE_TYPE}}},apple-relay.mask.apple-dns.net,{{{POLICY}}}
+
+# Cloudflare Relay
+{{{RULE_TYPE}}},cp4.cloudflare.com,{{{POLICY}}}
+
+# iCloud Gateway
+{{{RULE_TYPE}}},gateway.icloud.com,{{{POLICY}}}
+
+# Location Services
+{{{RULE_TYPE}}},gspel-ssl.ls.apple.com,{{{POLICY}}}
+{{{RULE_TYPE}}},ls.apple.com,{{{POLICY}}}
+
+# Smoot (Siri Suggestions)
+{{{RULE_TYPE}}},smoot.apple.com,{{{POLICY}}}
+
+# App Store Static Resources
+{{{RULE_TYPE}}},apps.mzstatic.com,{{{POLICY}}}

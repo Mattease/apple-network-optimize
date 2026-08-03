@@ -17,7 +17,9 @@
 
 或复制以下链接在 Shadowrocket 中手动添加：
 
-`https://raw.githubusercontent.com/Mattease/apple-network-optimize/master/Apple-Geofence-Unlock.sgmodule`
+```
+https://raw.githubusercontent.com/Mattease/apple-network-optimize/master/Apple-Geofence-Unlock.sgmodule
+```
 
 操作路径：**配置 → 模块 → + → 粘贴上方链接 → 下载**
 

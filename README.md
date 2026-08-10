@@ -23,23 +23,19 @@ https://raw.githubusercontent.com/Mattease/apple-network-optimize/master/apple_g
 
 安装时，Loon 会自动提示你为 `PROXY` 选择一个对应的策略组或节点。
 
-## 📦 Shadowrocket 模块
+## 📦 Surge / Shadowrocket 模块
 
 ### 一键安装
 
 👉 **[点击此处一键导入模块](https://raw.githubusercontent.com/Mattease/apple-network-optimize/master/Apple-Geofence-Unlock.sgmodule)**
 
-或复制以下链接在 Shadowrocket 中手动添加：
+或复制以下链接在 Surge 或 Shadowrocket 中手动添加：
 
-```
+```text
 https://raw.githubusercontent.com/Mattease/apple-network-optimize/master/Apple-Geofence-Unlock.sgmodule
 ```
 
-操作路径：**配置 → 模块 → + → 粘贴上方链接 → 下载**
-
-### 参数说明
-
-安装后**长按模块**即可编辑以下参数：
+安装后，请在 App 内调整参数：
 
 | 参数 | 默认值 | 说明 |
 |------|--------|------|

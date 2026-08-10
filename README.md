@@ -1,4 +1,4 @@
-# 🍎 Apple Network Optimize
+# 🍎 Apple Network Optimize (苹果解除电子围栏)
 
 优化 Apple 系列服务的网络连接体验，改善部分区域用户在使用 iCloud、Siri、App Store 等服务时遇到的连通性问题。
 

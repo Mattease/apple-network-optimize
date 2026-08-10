@@ -2,8 +2,10 @@
 #!desc=解除苹果服务地区限制，支持 iCloud Private Relay、Apple Relay 等相关域名的代理转发。可自定义策略组和规则类型。
 #!category=Apple
 #!compatible=shadowrocket
-#!author=Custom
-#!date=2026-08-03
+#!author=CIRE
+#!icon=https://avatars.githubusercontent.com/Mattease
+#!homepage=https://github.com/Mattease
+#!date=2026-08-10
 #!version=1.0.0
 
 #!arguments=POLICY:🍎 苹果解锁,RULE_TYPE:DOMAIN-SUFFIX

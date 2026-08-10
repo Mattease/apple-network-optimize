@@ -9,6 +9,20 @@
 - 改善 Siri、定位服务及 App Store 的响应速度
 - 支持自定义策略与规则类型配置
 
+## 🎈 Loon 插件
+
+### 一键安装
+
+👉 **[点击此处一键安装 Loon 插件](https://raw.githubusercontent.com/Mattease/apple-network-optimize/master/apple_geofence_unlock.plugin)**
+
+或复制以下链接在 Loon 中添加：
+
+```text
+https://raw.githubusercontent.com/Mattease/apple-network-optimize/master/apple_geofence_unlock.plugin
+```
+
+安装时，Loon 会自动提示你为 `PROXY` 选择一个对应的策略组或节点。
+
 ## 📦 Shadowrocket 模块
 
 ### 一键安装

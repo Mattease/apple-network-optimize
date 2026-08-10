@@ -1,0 +1,45 @@
+#!name=苹果解除电子围栏
+#!desc=解除苹果服务地区限制，支持 iCloud Private Relay、Apple Relay 等相关域名的代理转发。安装时 Loon 会统一提示你为 PROXY 选择策略。
+#!category=Apple
+#!author=CIRE
+#!icon=https://avatars.githubusercontent.com/Mattease
+#!homepage=https://github.com/Mattease
+#!date=2026-08-10
+#!version=1.0.1
+#!type=normal
+
+[Rule]
+# ===== Apple Geofence Unlock Domains =====
+
+# Siri & Guzzoni
+DOMAIN-SUFFIX,guzzoni.apple.com,PROXY
+
+# iCloud Private Relay / Mask
+DOMAIN-SUFFIX,mask-api.fe.apple-dns.net,PROXY
+DOMAIN-SUFFIX,mask-api.icloud.com,PROXY
+DOMAIN-SUFFIX,mask-t.apple-dns.net,PROXY
+DOMAIN-SUFFIX,mask.apple-dns.net,PROXY
+DOMAIN-SUFFIX,mask-h2.icloud.com,PROXY
+DOMAIN-SUFFIX,mask.icloud.com,PROXY
+
+# Apple Relay
+DOMAIN-SUFFIX,apple-relay.apple.com,PROXY
+DOMAIN-SUFFIX,apple-relay.cloudflare.com,PROXY
+DOMAIN-SUFFIX,apple-relay.fastly-edge.com,PROXY
+DOMAIN-SUFFIX,apple-relay.mask.apple-dns.net,PROXY
+
+# Cloudflare Relay
+DOMAIN-SUFFIX,cp4.cloudflare.com,PROXY
+
+# iCloud Gateway
+DOMAIN-SUFFIX,gateway.icloud.com,PROXY
+
+# Location Services
+DOMAIN-SUFFIX,gspel-ssl.ls.apple.com,PROXY
+DOMAIN-SUFFIX,ls.apple.com,PROXY
+
+# Smoot (Siri Suggestions)
+DOMAIN-SUFFIX,smoot.apple.com,PROXY
+
+# App Store Static Resources
+DOMAIN-SUFFIX,apps.mzstatic.com,PROXY

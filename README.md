@@ -1,13 +1,13 @@
 # 🍎 Apple Network Optimize (苹果解除电子围栏)
 
-优化 Apple 系列服务的网络连接体验，改善部分区域用户在使用 iCloud、Siri、App Store 等服务时遇到的连通性问题。
+通过将 Apple 核心服务（如 Siri、定位服务、iCloud 等）的请求代理到海外节点，让苹果服务器判定设备不在中国大陆地区，从而解锁并使用海外版 Siri（Apple Intelligence）及其他受地区限制的服务。
 
 ## ✨ 功能
 
-- 针对 Apple 核心服务域名进行网络路径优化
-- 提升 iCloud Private Relay、Gateway 等服务的连接质量
-- 改善 Siri、定位服务及 App Store 的响应速度
-- 支持自定义策略与规则类型配置
+- **解除区域限制**：代理 Siri (`guzzoni.apple.com`) 等域名，解锁海外版 Siri 及 Apple Intelligence 等功能。
+- **解锁 iCloud 隐私代理**：代理相关域名，正常开启和使用 iCloud Private Relay。
+- **修改定位判定**：代理定位服务（`ls.apple.com`），配合海外节点让设备伪装在非限制区域。
+- **多平台支持**：支持 Loon、Surge、Shadowrocket 等主流代理软件的一键配置。
 
 ## 🎈 Loon 插件
 

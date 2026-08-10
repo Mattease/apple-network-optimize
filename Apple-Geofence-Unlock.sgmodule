@@ -6,43 +6,43 @@
 #!icon=https://avatars.githubusercontent.com/Mattease
 #!homepage=https://github.com/Mattease
 #!date=2026-08-10
-#!version=1.0.0
+#!version=1.0.1
 
-#!arguments=POLICY:🍎 苹果解锁,RULE_TYPE:DOMAIN-SUFFIX
-#!arguments-desc=POLICY: 填写你要使用的策略组名称，例如 PROXY、🍎 苹果解锁、🇺🇸 美国节点 等。\nRULE_TYPE: 规则匹配方式，可选 DOMAIN（精确匹配）或 DOMAIN-SUFFIX（后缀匹配，推荐）。
+#!arguments=代理策略:PROXY
+#!arguments-desc=代理策略: 填写你要使用的策略组名称，例如 PROXY、🍎 苹果解锁、🇺🇸 美国节点 等。
 
 [Rule]
 # ===== Apple Geofence Unlock Domains =====
 
 # Siri & Guzzoni
-{{{RULE_TYPE}}},guzzoni.apple.com,{{{POLICY}}}
+DOMAIN-SUFFIX,guzzoni.apple.com,{{{代理策略}}}
 
 # iCloud Private Relay / Mask
-{{{RULE_TYPE}}},mask-api.fe.apple-dns.net,{{{POLICY}}}
-{{{RULE_TYPE}}},mask-api.icloud.com,{{{POLICY}}}
-{{{RULE_TYPE}}},mask-t.apple-dns.net,{{{POLICY}}}
-{{{RULE_TYPE}}},mask.apple-dns.net,{{{POLICY}}}
-{{{RULE_TYPE}}},mask-h2.icloud.com,{{{POLICY}}}
-{{{RULE_TYPE}}},mask.icloud.com,{{{POLICY}}}
+DOMAIN-SUFFIX,mask-api.fe.apple-dns.net,{{{代理策略}}}
+DOMAIN-SUFFIX,mask-api.icloud.com,{{{代理策略}}}
+DOMAIN-SUFFIX,mask-t.apple-dns.net,{{{代理策略}}}
+DOMAIN-SUFFIX,mask.apple-dns.net,{{{代理策略}}}
+DOMAIN-SUFFIX,mask-h2.icloud.com,{{{代理策略}}}
+DOMAIN-SUFFIX,mask.icloud.com,{{{代理策略}}}
 
 # Apple Relay
-{{{RULE_TYPE}}},apple-relay.apple.com,{{{POLICY}}}
-{{{RULE_TYPE}}},apple-relay.cloudflare.com,{{{POLICY}}}
-{{{RULE_TYPE}}},apple-relay.fastly-edge.com,{{{POLICY}}}
-{{{RULE_TYPE}}},apple-relay.mask.apple-dns.net,{{{POLICY}}}
+DOMAIN-SUFFIX,apple-relay.apple.com,{{{代理策略}}}
+DOMAIN-SUFFIX,apple-relay.cloudflare.com,{{{代理策略}}}
+DOMAIN-SUFFIX,apple-relay.fastly-edge.com,{{{代理策略}}}
+DOMAIN-SUFFIX,apple-relay.mask.apple-dns.net,{{{代理策略}}}
 
 # Cloudflare Relay
-{{{RULE_TYPE}}},cp4.cloudflare.com,{{{POLICY}}}
+DOMAIN-SUFFIX,cp4.cloudflare.com,{{{代理策略}}}
 
 # iCloud Gateway
-{{{RULE_TYPE}}},gateway.icloud.com,{{{POLICY}}}
+DOMAIN-SUFFIX,gateway.icloud.com,{{{代理策略}}}
 
 # Location Services
-{{{RULE_TYPE}}},gspel-ssl.ls.apple.com,{{{POLICY}}}
-{{{RULE_TYPE}}},ls.apple.com,{{{POLICY}}}
+DOMAIN-SUFFIX,gspel-ssl.ls.apple.com,{{{代理策略}}}
+DOMAIN-SUFFIX,ls.apple.com,{{{代理策略}}}
 
 # Smoot (Siri Suggestions)
-{{{RULE_TYPE}}},smoot.apple.com,{{{POLICY}}}
+DOMAIN-SUFFIX,smoot.apple.com,{{{代理策略}}}
 
 # App Store Static Resources
-{{{RULE_TYPE}}},apps.mzstatic.com,{{{POLICY}}}
+DOMAIN-SUFFIX,apps.mzstatic.com,{{{代理策略}}}

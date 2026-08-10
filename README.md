@@ -39,10 +39,9 @@ https://raw.githubusercontent.com/Mattease/apple-network-optimize/master/Apple-G
 
 | 参数 | 默认值 | 说明 |
 |------|--------|------|
-| `POLICY` | `🍎 苹果解锁` | 指定流量出口，填写你的策略组名称 |
-| `RULE_TYPE` | `DOMAIN-SUFFIX` | 匹配模式，可选 `DOMAIN` 或 `DOMAIN-SUFFIX` |
+| `代理策略` | `PROXY` | 指定流量出口，填写你的策略组名称 |
 
-> **提示**：`POLICY` 需与你配置中的策略组名称完全一致方可生效。常用值如 `PROXY`、`🇺🇸 美国节点` 等。
+> **提示**：`代理策略` 需与你配置中的策略组名称完全一致方可生效。常用值如 `PROXY`、`🇺🇸 美国节点` 等。
 
 ## 📋 覆盖服务
 
